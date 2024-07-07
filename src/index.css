@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
+:root {
+  --yellow-th-bg-color: #1d1d1d;
+  --yellow-th-main-color: #ffdd40;
+  --yellow-th-sub-text-color: #fff;
+  --yellow-th-nav-bg-color: #181818;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 62.5%;
+  height: 100%;
+}
+
+body {
+  background: var(--yellow-th-bg-color);
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
