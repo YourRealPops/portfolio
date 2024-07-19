@@ -1,10 +1,10 @@
 .navbar{
     background: var(--yellow-th-nav-bg-color);
     display: flex;
-    height: 50px;
+    height: 80px;
     justify-content: center;
     align-items: center;
-    font-size: 1.1rem;
+    font-size: 2rem;
 
     &__container{
         display: flex;
@@ -26,8 +26,8 @@
 
             &__item{
                 // line-height: 40px;
-                margin-right: 1.5rem;
-                font-size: 1.2rem;
+                margin-right: 1.3rem;
+                font-size: 2rem;
 
                 &::after{
                     content: '';
@@ -65,7 +65,7 @@
         width: 100%;
         // border-top: 1px solid #fff;
         position: absolute;
-        top: 50px;
+        top: 80px;
         left: -110%;
         opacity: 1;
         transition: all 0.5s ease;
@@ -74,6 +74,11 @@
             background: #181818;
             left: 0px;
             opacity: 1;
+        }
+        &__item{
+            border-bottom: 1px solid #282828;
+            margin: 0px;
+            padding: 10px 0px;
         }
     }
 
