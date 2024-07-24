@@ -11,7 +11,10 @@ const Resume=()=>{
              headerText="My Resume"
              icon= {<BsInfoCircleFill size={40}/>}
           />
-
+         
+         <div className="timeline">
+            
+         </div>
        </section>
     )
 }
