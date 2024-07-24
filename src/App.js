@@ -9,6 +9,7 @@ import Portfolio from './containers/portfolio';
 import Resume from './containers/resume';
 import Skills from './containers/skills';
 import NavBar from './components/navBar';
+import Footer from './components/footer';
 
 function App() {
 
@@ -34,6 +35,9 @@ function App() {
           <Route path='/skills' element={<Skills />} />
         </Routes>
       </div>
+
+      {/* Footer */}
+      <Footer />
     </div>
   );
 }
