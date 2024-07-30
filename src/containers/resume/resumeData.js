@@ -2,7 +2,7 @@ export const data = {
     experience: [
         {
             title: "Personal Assistant",
-            subTitle: "v.I, Lagos",
+            subTitle: "V.I, Lagos",
             description:
               "Schedule planning, HR functions"
         },
