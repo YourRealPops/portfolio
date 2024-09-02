@@ -1,0 +1,19 @@
+.portfolio{
+    &__content{
+        width: 100%;
+        padding: 20px;
+        
+
+        &__filter{
+            display: inline-block;
+            margin: 0 auto;
+            border-radius: 25px;
+            border: 1px dashed var(--yellow-th-main-color);
+
+
+            li{
+                font-size: 16px;
+            }
+        }
+    }
+}
